@@ -1,0 +1,99 @@
+{
+  "intents":[
+    { 
+      "tag": "saudacao",
+      "patterns":["Ola","Opa","Oi","tudo bem","salve"],
+      "responses": ["Oi","Olá"]
+    },
+    { 
+      "tag": "despedida",
+      "patterns":["valeu","tchau","Obrigado","tks","falou"],
+      "responses": ["Até breve","Falou"]
+    },
+    { 
+      "tag": "sobre",
+      "patterns":["O que é o PIPE?","Sobre o PIPE","fala do PIPE"],
+      "responses": ["O Programa Pesquisa Inovativa em Pequenas Empresas da FAPESP destina-se a apoiar a execução de pesquisa científica e tecnológica em pequenas empresas no Estado de São Paulo. Seus objetivos são apoiar a pesquisa em ciência e tecnologia como instrumento para promover a inovação tecnológica e o desenvolvimento empresarial, aumentar a competitividade das pequenas empresas, possibilitar que as empresas se associem a pesquisadores do ambiente acadêmico em projetos de pesquisa visando à inovação tecnológica e contribuir para a formação e o desenvolvimento de núcleos de desenvolvimento tecnológico nas empresas e para o emprego de pesquisadores no mercado de trabalho empresarial criando uma cultura permanente de inovação."]
+    },
+    { 
+      "tag": "objetivos",
+      "patterns":["Quais os objetivos do PIPE?","Objetivos e metas do PIPE"],
+      "responses": ["1. Apoiar a pesquisa em ciência e tecnologia como instrumento para promover a inovação tecnológica eo desenvolvimento empresarial, com o objetivo de aumentar a competitividade das pequenas empresas.\n\n2. Incrementar a contribuição da pesquisa para o desenvolvimento econômico e social.\n\n3. Induzir o aumento do investimento privado em pesquisa tecnológica.\n\n4. Possibilitar que as empresas se associem a pesquisadores do ambiente acadêmico em projetos de pesquisa visando à inovação tecnológica.\n\n5. Contribuir para a formação e o desenvolvimento de núcleos de desenvolvimento tecnológico nas empresas e para a ampliação das oportunidades de emprego de pesquisadores no mercado."]
+    },
+    { 
+      "tag": "politica_propriedade_intelectual",
+      "patterns":["Qual é a política de propriedade intelectual?","Fale sobre a política de propriedade intelectual"],
+      "responses": ["As empresas apoiadas pelo Programa Pesquisa Inovativa em Pequenas Empresas (PIPE) detém exclusivamente os direitos legais de propriedade intelectual dos resultados das pesquisas financiadas, sem a exigência de compartilhamento com a Fundação.\n\nA empresa, portanto, poderá explorar, licenciar e proteger os resultados do projeto apoiado pela Fundação da forma que achar mais conveniente, seguindo sua estratégia de negócio, devendo manter a FAPESP informada em relação à propriedade intelectual para fins de acompanhamento.\n\nAs regras de propriedade intelectual estão disponíveis em fapesp.br/pi."]
+    },
+    { 
+      "tag": "etapas_do_programa",
+      "patterns":["Quais são as etapas?","O programa tem etapas?", "Como começar?"],
+      "responses": ["a) Fase 1: é destinada à verificação da viabilidade técnico-científica da proposta, (duração de até 9 meses e orçamento de até R$ 300.000, mais Reserva Técnica e Benefícios Complementares);\n\nb) Fase 2: destina-se à execução da pesquisa propriamente dita (duração de até 24 meses e orçamento de até R$ 1.500.000, mais Reserva Técnica e Benefícios Complementares);\n\nc) PIPE Invest: Aceleração da chegada ao mercado de Projetos da Fase 2, quando houver terceira parte interessada (duração de até 24 meses e orçamento de até R$ 1.500.000); e\n\nd) Fase 3: desenvolvimento comercial e industrial dos produtos, processos, sistemas e/ou serviços inovadores obtidos a partir de pesquisas anteriores realizadas pela pequena empresa sem o apoio da FAPESP ou a partir de pesquisa apoiada no âmbito do PIPE."]
+    },
+    { 
+      "tag": "etapa_do_programa",
+      "patterns":["Fale sobre a fase?","Qual a fase?", "Qual a etapa?","eu tenho uma duvida sobre as fases"],
+      "responses": ["Qual a etapa?"]
+    },
+    { 
+      "tag": "fase1",
+      "patterns":["Qual a fase 1?","Qual a etapa 1?", "fase 1"],
+      "responses": ["A fase 1 é destinada à verificação da viabilidade técnico-científica da proposta, (duração de até 9 meses e orçamento de até R$ 300.000, mais Reserva Técnica e Benefícios Complementares)"]
+    },
+    { 
+      "tag": "fase2",
+      "patterns":["Qual a fase 2?","Qual a etapa 2?", "fase 2"],
+      "responses": ["A fase 2 destina-se à execução da pesquisa propriamente dita (duração de até 24 meses e orçamento de até R$ 1.500.000, mais Reserva Técnica e Benefícios Complementares)"]
+    },
+    { 
+      "tag": "fase3",
+      "patterns":["Qual a fase 3?","Qual a etapa 3?", "fase 3"],
+      "responses": ["A fase 3 é o desenvolvimento comercial e industrial dos produtos, processos, sistemas e/ou serviços inovadores obtidos a partir de pesquisas anteriores realizadas pela pequena empresa sem o apoio da FAPESP ou a partir de pesquisa apoiada no âmbito do PIPE"]
+    },
+    { 
+      "tag": "pipe_invest",
+      "patterns":["O que é o PIPE invest?","Fale sobre a etapa do PIPE Invest", "PIPE Invest"],
+      "responses": ["PIPE Invest é a aceleração da chegada ao mercado de Projetos da Fase 2, quando houver terceira parte interessada (duração de até 24 meses e orçamento de até R$ 1.500.000)"]
+    },
+    { 
+      "tag": "requisitos_empresa",
+      "patterns":["Preciso ter uma empresa para solicitar o PIPE?", "Preciso ser uma pessoa jurídica?"],
+      "responses": ["A FAPESP analisa propostas de empresas ainda não constituídas. Empresas startup ainda não constituídas legalmente são incentivadas a submeter. Nos casos em que a proposta for recomendada, o proponente deverá então abrir formalmente a empresa antes da concessão da proposta."]
+    },
+    { 
+      "tag": "submissao_proposta",
+      "patterns":["Quando posso submeter uma proposta?", "Quando posso iniciar o projeto?", "Existe uma data limite para submeter a proposta?"],
+      "responses": ["As propostas para o PIPE Fase 1, Fase 2 e PIPE Invest são recebidas em fluxo contínuo durante todo o ano."]
+    },
+    { 
+      "tag": "produto_pronto",
+      "patterns":["Tenho um produto pronto e desenvolvido, posso receber financiamento do PIPE para comercializá-lo?", "Posso receber o financiamento por um produto pronto?"],
+      "responses": ["O objetivo do PIPE é apoiar projetos de pesquisa para inovação, oferecendo recursos para custear a pesquisa visando ao desenvolvimento de um produto, processo ou serviço inovador. Se o produto já foi desenvolvido, as Fases 1 e 2 do PIPE não são necessárias para financiar pesquisa para se chegar a ele. Nesse caso, a proposta pode ser elegível para outros programas de subvenção econômica, no PIPE Fase 3, financiados em parceria com terceiros."]
+    },
+    { 
+      "tag": "projeto_universitario",
+      "patterns":["É obrigatório ter projeto de pesquisa numa universidade para receber apoio do PIPE da FAPESP?", "Preciso estar em uma universidade para participar do projeto?"],
+      "responses": ["Não há absolutamente nenhuma exigência de relação com qualquer instituição acadêmica. Embora relações entre a empresa e universidades sejam salutares, o PIPE é um programa para apoiar a pesquisa na empresa, não na universidade."]
+    }, 
+    { 
+      "tag": "apoio_FAPESP",
+      "patterns": ["Preciso devolver o dinheiro do financiamento?", "O apoio da FAPESP é um empréstimo?"],
+      "responses": ["O apoio da FAPESP não é realizado na forma de empréstimo."]
+    },
+    { 
+      "tag": "projeto_dono",
+      "patterns": ["Eu tenho que me reportar para a FAPESP?", "A FAPESP será sócia da minha empresa?", "A FAPESP será dona do meu projeto?"],
+      "responses": ["A titularidade da propriedade intelectual resultante do projeto pertence à empresa sede do projeto, além disso, a FAPESP não recebe nenhuma cota da empresa"]
+    },
+    { 
+      "tag": "projeto_denegado",
+      "patterns": ["E se meu projeto é denegado?", "O que acontece se meu projeto não for aceito?"],
+      "responses": ["Caso seu projeto for denegado, você receberá pareceres explicando os motivos da denegação e apontando eventuais fragilidades da proposta apresentada. Caso haja interesse, você pode aprimorar o projeto baseado nos comentários dos assessores e resubmetê-lo em um pedido de \"reconsideração\"."]
+    },
+    { 
+      "tag": "mais_informacoes",
+      "patterns": ["Como posso obter mais informações sobre o PIPE?", "Tenho mais dúvidas", "Onde posso encontrar mais detalhes?"],
+      "responses": ["O site fapesp.br/pipe apresenta em detalhes o programa, incluindo o texto completo das normas e as chamadas vigentes. Adicionalmente, de forma periódica, acontece o evento “Diálogo sobre Apoio à Pesquisa para Inovação na Pequena Empresa” no qual o programa PIPE é apresentado e os membros da coordenação tiram dúvidas dos participantes (veja as próximas datas no site do PIPE)."]
+    }
+  ]
+}
